@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- Bootstrap CSS -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Sono:wght@300;400;500;600;700;800&display=swap" rel="stylesheet">
+    <link href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" rel="stylesheet">
+    <title>Login</title>
+    <style>
+        body {
+            -webkit-font-smoothing: antialiased;
+            margin: 0;
+            padding: 0;
+            font-family: 'Sono', sans-serif !important;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+        }
+
+        .vh-100 {
+            height: 100vh;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+        }
+
+        .bgColor {
+            background: linear-gradient(to right top, #1962ce, #006ec1, #0072a5, #007184, #0f6e69);
+            height: 100vh;
+        }
+
+        #border {
+            border-radius: 1rem;
+        }
+
+        h2 {
+            color: black;
+            font-weight: 780!important;
+            
+            font-size: 2rem;
+            margin-block-start: 0.83em;
+            margin-inline-end: 0.83em;
+            margin-inline-start: 0px;
+            margin-inline-end: 0px;
+            -webkit-font-smoothing: antialiased
+        }
+        .size{
+            font-size: large;
+        }
+        .mb-2{
+            margin-bottom: 0.25rem !important;
+        }
+        .fw-bold{
+            font-weight: 700 !important;
+        }
+
+
+        #imagerepair{
+            /* display: block; margin: auto; margin-top: 20px; */
+            height: 50px;
+            width: 50px;
+
+        }
+    </style>
+</head>
+
+<body>
+    <section class="vh-100 bgColor">
+        <div class="container py-5 h-100">
+            <div class="row d-flex justify-content-center align-items-center h-100">
+                <div class="col-12 col-md-8 col-lg-6 col-xl-5">
+                    <div class="card bg-light text-black border border-dark" id="border">
+                        <div class="card-body p-5 text-center">
+                            <div class="mb-md-3 mt-md-4">
+                                <h2 class="fw-bold mb-2 text-uppercase">TimeLogger</h2>
+                            </div>
+                            <div>
+                                <br>
+                                <!-- <br> -->
+                                <img src="./repair.svg" alt="Repair Image" id="imagerepair">
+                                <br>
+                                <br>
+                                <p class="my-2 size">This site is under Maintenance!</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- jQuery -->
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+    <!-- Bootstrap JS -->
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js"></script>
+</body>
+
+</html>
